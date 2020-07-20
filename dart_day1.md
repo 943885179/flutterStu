@@ -43,3 +43,37 @@ main(){
 ## 方法
 
 > 返回类型 名称 (参数， [可选参数]) {}
+
+## 库
+
+### 自定义库
+
+>直接应用
+
+### 系统库
+
+>import 输入dart:选择本地库
+
+### 第三方库
+
+>托管到pub包管理系统
+>>[托管地址1](https://pub.dev/packages)
+>>[托管地址2](https://pub.flutter-io.cn/packages)
+>>[托管地址3](https://pub.dartlang.org/packages)
+>在根目录里面添加文件`pubspec.yaml`
+
+```yarm
+name: test //名称
+description:  Zheshimiaoshu a. //项目说明
+dependencies:  //第三方库
+   http: ^0.12.2
+```
+
+>cd到项目目录，执行`pub get`此时会下载
+>引入import package
+
+### 使用as重命名`improt 'xxx' as d`然后使用`d.yyy`
+
+### 只引入部分功能`import 'xxx' show 方法`标识只引入该方法
+
+### 隐藏部分功能`import 'xxx' hide 方法`
