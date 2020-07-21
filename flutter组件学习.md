@@ -3,8 +3,10 @@
 ## 组件一般层次
 
 >MaterialApp
->>Conter
->>>Container
->>>>Text,Img
-
-## 
+>>home：Scafflod()主体
+>>>appBar 头部
+>>>body 内容
+>>>>Conter
+>>>>>Container
+>>>>>>Text,Img
+>>theme:ThemeData()主题
