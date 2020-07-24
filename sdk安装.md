@@ -50,5 +50,6 @@
 
 ## vscode启动flutter
 >下载插件`dart`和`flutter`以及`Flutter Widget Snippets`语法提示插件
+>下载插件`Awesome Flutter Snippets`
 >打开flutter项目
 >flutter run (前提是已经插入调试机器或者启动虚拟机（vscode右下角可查或者查看>命令面板>flutter dev）)
